@@ -1,0 +1,21 @@
+{
+  "name": "amazon-auto-test",
+  "version": "1.0.0",
+  "description": "Sample tests using webdriverio",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --timeout 20000000",
+    "clean": "rm -rf node_modules && rm -f package-lock.json && npm install"
+  },
+  "author": "Daniel Graham",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^8.0.1",
+    "parallel-mocha": "0.0.9",
+    "path": "^0.12.7",
+    "string-remove-thousand-separators": "^3.0.71",
+    "webdriverio": "^5.23.0"
+  }
+}
